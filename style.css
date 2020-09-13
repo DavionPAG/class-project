@@ -50,25 +50,3 @@ article {
   width: 300px;
   display: inline-block;
 }
-/* footer */
-footer {
-  align-content: center;
-}
-footer ul {
-  width: 100px; 
-  display: inline-block;
-  margin-left: 60px;
-}
-footer li {
-  width: 100px;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  border-radius: 25px;
-  border: 1px solid black;
-  color: white;
-  background-color: green;
-}
-footer p {
-  float: right;
-}
