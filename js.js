@@ -1,3 +1,4 @@
+'use strict'
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -9,12 +10,19 @@ else { greetins = 'Greetings!';}
 
 document.write('<h3>' + greeting + '</h3>');
 
-var text;
-var favDrink = prompt("Do you prefer Accipitridae or Columbidae");
-switch(favDrink) {
+function favBird() {
+  
+var text
+var favBird = prompt("Do you prefer Accipitridae or Columbidae");
+switch(favBird) {
   case "Accipitridae":
     text = "Birds of prey!";
     break;
   case "Columbidae":
-    text = "Peaceful flyings!";
+    text = "Peaceful flyers!";
     break;}
+    console.log(favBird);
+    return document.write('Is that so...');
+
+}
+favBird ();
