@@ -9,9 +9,12 @@ else { greetins = 'Greetings!';}
 
 document.write('<h3>' + greeting + '</h3>');
 
-var person = prompt("Please enter your name");
-
-if (person != null) {
-  document.getElementById("demo").innerHTML =
-  "Hello " + person + "! How are you today?";
-}
+var text;
+var favDrink = prompt("Do you prefer Accipitridae or Columbidae");
+switch(favDrink) {
+  case "Accipitridae":
+    text = "Birds of prey!";
+    break;
+  case "Columbidae":
+    text = "Peaceful flyings!";
+    break;}
